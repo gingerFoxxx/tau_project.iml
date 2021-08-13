@@ -18,10 +18,10 @@
             <class name="navigation.NavigationTests"/>
             <class name="passwords.ForgotPasswordTests"/>
             <class name="slider.HorizontalSliderTests"/>
-            <class name="waiting.WaitTest"/>
-            // 15 штук
+            <class name="waiting.WaitTest"/> <!--15 штук-->
         </classes>
     </test>
+
 
 
 </suite>
