@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="2" verbose="1" name="Parallel Test Suite" annotations="JDK" parallel="tests">
+
+    <test name="alerts">
+        <classes>
+            <class name="alerts.AlertsTests"/>
+            <class name="alerts.ContextMenuTest"/>
+            <class name="alerts.FileUploadTest"/>
+        </classes>
+    </test>
+    <test name="base">
+        <classes>
+            <class name="base.BaseTests"/>
+        </classes>
+    </test>
+
+</suite>
