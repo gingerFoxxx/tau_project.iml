@@ -9,7 +9,7 @@ public class FileUploadTest extends BaseTests {
     @Test
     public void testFileUpload(){
         var uploadPage = homePage.clickFileUpload();
-        uploadPage.uploadFile("/Users/adelinagubareva/Documents/IDEA Projects/tau_project/resources/testFilexlsx.xlsx");
+        uploadPage.uploadFile("/Users/adelinagubareva/Documents/IDEA_Projects/tau_project/resources/testFilexlsx.xlsx");
 
         assertEquals(uploadPage.getUploadedFiles(),"testFilexlsx.xlsx","Uploaded files incorrect");
     }
