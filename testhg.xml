@@ -2,17 +2,26 @@
 
 <suite thread-count="2" verbose="1" name="Parallel Test Suite" annotations="JDK" parallel="tests">
 
-    <test name="alerts">
+    <test name="parallelTests">
         <classes>
             <class name="alerts.AlertsTests"/>
             <class name="alerts.ContextMenuTest"/>
             <class name="alerts.FileUploadTest"/>
-        </classes>
-    </test>
-    <test name="base">
-        <classes>
             <class name="base.BaseTests"/>
+            <class name="cookies.CookiesTests"/>
+            <class name="dropdown.DropdownTest"/>
+            <class name="frames.FrameTests"/>
+            <class name="hover.HoversTests"/>
+            <class name="javascript.JavaScriptTests"/>
+            <class name="keys.KeyPressesTests"/>
+            <class name="login.LoginTests"/>
+            <class name="navigation.NavigationTests"/>
+            <class name="passwords.ForgotPasswordTests"/>
+            <class name="slider.HorizontalSliderTests"/>
+            <class name="waiting.WaitTest"/>
+            // 15 штук
         </classes>
     </test>
+
 
 </suite>
